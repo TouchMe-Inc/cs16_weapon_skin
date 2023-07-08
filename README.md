@@ -2,4 +2,4 @@
 Adds the ability to select a weapon model.
 
 ## Commands
-* `!ws` - Show available weapon skins.
+* `!ws`, `/ws` - Show available weapon skins.
