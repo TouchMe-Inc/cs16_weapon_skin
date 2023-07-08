@@ -103,7 +103,9 @@ public FM_SetModel_Pre(const iEnt)
 		{
 			new eSkinInfo[SkinInfo]; ArrayGetArray(g_aSkinList, iSkinIndex, eSkinInfo);
 
-			engfunc(EngFunc_SetModel, iEnt, eSkinInfo[model_w]);
+			if (eSkinInfo[model_w]) {
+				engfunc(EngFunc_SetModel, iEnt, eSkinInfo[model_w]);
+			}
 
 			Call_OnClientWeaponDrop(iClient, iSkinIndex);
 
@@ -128,7 +130,9 @@ public FM_SetModel_Pre(const iEnt)
 		{
 			new eSkinInfo[SkinInfo]; ArrayGetArray(g_aSkinList, iSkinIndex, eSkinInfo);
 
-			engfunc(EngFunc_SetModel, iEnt, eSkinInfo[model_w]);
+			if (eSkinInfo[model_w]) {
+				engfunc(EngFunc_SetModel, iEnt, eSkinInfo[model_w]);
+			}
 
 			Call_OnClientWeaponDrop(iClient, iSkinIndex);
 
