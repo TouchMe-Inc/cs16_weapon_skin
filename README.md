@@ -1,2 +1,5 @@
-# cs16_weapon_skin
-Adds the ability to select a weapon model
+# About weapon_skin
+Adds the ability to select a weapon model.
+
+## Commands
+* `!ws` - Show available weapon skins.
