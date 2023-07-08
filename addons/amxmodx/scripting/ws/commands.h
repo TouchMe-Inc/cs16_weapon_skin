@@ -1,0 +1,1 @@
+#define CMD_SHOW_SKIN_MENU             "ws"
