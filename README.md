@@ -1,8 +1,8 @@
 # About weapon_skin
 Adds the ability to select a weapon model.
 
-## Commands
-* `!ws`, `/ws` - Show available models of active weapons.
+## Command
+`!ws`, `/ws` - Show available models of active weapons.
 
 # Menu features
 Changing weapons while the menu is active will automatically update the menu to display the available models for the new weapon.
