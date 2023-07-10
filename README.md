@@ -20,7 +20,7 @@ Example:
 	//"weapon_*"
 	//{
 	//	"name" "MENU NAME"                        <-- required
-  	//  "model_v" "models/PATH_TO_MODEL/v_*.mdl"  <-- required
+  	//  	"model_v" "models/PATH_TO_MODEL/v_*.mdl"  <-- required
 	//	"model_w" "models/PATH_TO_MODEL/w_*.mdl"  <-- optional
 	//	"model_p" "models/PATH_TO_MODEL/p_*.mdl"  <-- optional
 	//}
